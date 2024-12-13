@@ -13,6 +13,9 @@ function App() {
         >
           NEXINVENTIX TECHNOLOGY
         </a>
+        <p>
+          DESIGN - DEVELOPMENT - TRAINING - STORE
+        </p>
         <marquee>
         <p>
           COMING SOON...
