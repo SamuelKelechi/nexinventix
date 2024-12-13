@@ -13,9 +13,11 @@ function App() {
         >
           NEXINVENTIX TECHNOLOGY
         </a>
+        <marquee>
         <p>
           COMING SOON...
         </p>
+        </marquee>
       </header>
     </div>
   );
