@@ -1,0 +1,367 @@
+.About{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.about-top{
+    height: max-content;
+    width: 74%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+
+    & h3{
+        font-size: 30px;
+        color: #333333;
+    }
+    & p{
+        text-align: center;
+    }
+
+    @media screen and (max-width:768px) {
+        width: 90%;
+    }
+}
+.about-hero{
+    height: 70vh;
+    width: 100%;
+    /* background: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    @media screen and (max-width:1150px) and (min-width: 900px){
+        height: 65vh;
+    }
+    @media screen and (max-width:899px) and (min-width: 769px){
+        height: 55vh;
+    }
+    @media screen and (max-width:768px) {
+        height: 150vh;
+        flex-direction: column;
+    }
+}
+.image-small{
+    height: 70%;
+    width: 32%;
+    border-radius: 1rem;
+    background: url(../assets/who1.jpg);
+    background-size: cover;
+    background-position: top;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+    @media screen and (max-width:768px) {
+        height: 30%;
+        width: 90%;
+    }
+}
+.image-medium{
+    height: 80%;
+    width: 31%;
+    border-radius: 1rem;
+    background: url(../assets/who2.jpg);
+    background-size: cover;
+    background-position: top;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    @media screen and (max-width:768px) {
+        height: 30%;
+        width: 90%;
+    }
+}
+.image-large{
+    height: 95%;
+    width: 30%;
+    border-radius: 1rem;  
+    background: url(../assets/who3.jpg);
+    background-size: cover;
+    background-position: top;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    @media screen and (max-width:768px) {
+        height: 30%;
+        width: 90%;
+    }
+}
+.about-mission{
+    height: 89vh;
+    width: 100%;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h4{
+        font-size: 25px;
+    }
+
+    @media screen and (max-width:768px) {
+       height: max-content;
+    }
+}
+.about-mission-wrapper{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    & h4{
+        text-align: center;
+    }
+
+    @media screen and (max-width:768px) {
+        height: max-content;
+        justify-content: center;
+        width: 99%;
+    }
+}
+.main-about-mission{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+    @media screen and (max-width:768px) {
+       flex-direction: column;
+       height: max-content;
+       align-items: center;
+    }
+}
+.left-about-mission{
+    height: 95%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @media screen and (max-width:768px) {
+        width: 87%;
+        height: max-content;
+    }
+}
+.mission-box{
+    height: max-content;
+    width: 100%;
+
+    & strong{
+        font-size: 22px;
+    }
+
+    & p{
+        font-size: 17px;
+    }
+}
+.right-about-mission{
+    height: 95%;
+    width: 46%;
+    background-image: url(../assets/vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+
+    @media screen and (max-width:768px) {
+        height: 48vh;
+        width: 90%;
+        margin-top: 8px;
+    }
+}
+.why-choose{
+    height: 100vh;
+    width: 100%;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+    @media screen and (max-width:768px) {
+        height: max-content;
+    }
+    
+}
+.why-choose-wrapper{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    & h4{
+        font-size: 26px;
+
+        @media screen and (max-width:768px) {
+            font-size: 24px;
+        }
+    }
+    @media screen and (max-width:768px) {
+        width: 90%;
+        margin-top: 15px;
+    }
+    
+}
+.hold-why-cards{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+
+    @media screen and (max-width:768px) {
+        height: max-content;
+    }
+}
+.why-card{
+    width: 45%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30%;
+    max-height: 45%;
+    box-shadow: rgba(225, 102, 0, 0.9) 3px 4px 6px;
+    padding: 5px 0;
+    
+    @media screen and (max-width:768px) {
+        width: 100%;
+    }
+}
+.why-card-wrapper{
+    height: 89%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.why-choose-wrapper h4{
+    text-align: center;
+} 
+.why-card-header{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    & strong{
+        font-size: 24px;
+        color: #1e1e1e;
+    }
+}
+.why-card-main{
+    & p{
+        font-size: 18px;
+        color: #333333;
+        font-weight: 400;
+    }
+}
+.brand-personality{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    @media screen and (max-width:768px) {
+        height: max-content;
+        margin-top: 20px;
+    }
+}
+.brand-personality-wrapper{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+    & h4{
+        font-size: 25px;
+    }
+    & p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    @media screen and (max-width:768px) {
+        height: max-content;
+    }
+}
+.hold-circles{
+    height: 63%;
+    width: 100%;
+    /* background: rgb(205, 88, 88); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    @media screen and (max-width:768px) {
+        height: max-content;
+        flex-direction: column;
+    }
+}
+.circle{
+    height: 260px;
+    width: 260px;
+    background: #FF6600;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    & strong{
+        font-size: 20px;
+
+        @media screen and (max-width:899px) and (min-width: 769px){
+            font-size: 18px;
+        }
+    }
+    & p{
+        font-size: 16px;
+
+        @media screen and (max-width:899px) and (min-width: 769px){
+            font-size: 15px;
+        }
+    }
+}
+.circle-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
