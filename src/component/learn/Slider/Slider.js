@@ -66,7 +66,6 @@ const Slider = () => {
             style={{ backgroundImage: `url(${slide.image})` }}
           >
             <div className="overlay"></div>
-            {/* <div className="carousel-text">{slide.text}</div> */}
           </div>
         ))}
       </div>
