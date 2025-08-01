@@ -77,7 +77,7 @@ const Contact = () => {
       </div>
       <div className="map-container">
         <iframe
-          src="https://www.google.com/maps/embed/v1/place?q=26+Prince+Fadina+Street+Olodi+Apapa%2C+Lagos&key=AIzaSyAyRoZ48MlHbhdTI0H8Z-Vw8YUR9oMYql8" onerror="handleMapError(this)" 
+          src="https://www.google.com/maps/embed/v1/place?q=Nexinventix+Technology&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" onerror="handleMapError(this)" 
           allowFullScreen="" 
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"></iframe>
